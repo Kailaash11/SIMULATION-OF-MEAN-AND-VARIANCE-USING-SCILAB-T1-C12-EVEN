@@ -33,6 +33,37 @@ PROCEDURE:
 
 PROGRAM:
 
-OUTPUT GRAPH:
+clc;
+clear;
+
+// Given data
+X = [23,24,25,26,27];
+
+// Number of elements
+N = length(X);
+
+// Calculate Mean
+mean_value = sum(X) / N;
+
+// Calculate Variance
+variance_value = sum((X - mean_value).^2) / N;
+
+// Display Results
+disp("Mean = ");
+disp(mean_value);
+
+disp("Variance = ");
+disp(variance_value);
+
+
+calculation:
+
+![WhatsApp Image 2026-04-09 at 8 25 28 AM](https://github.com/user-attachments/assets/f5293dab-7e58-435e-b27e-64c999808cab)
+
+![WhatsApp Image 2026-04-09 at 8 25 46 AM](https://github.com/user-attachments/assets/839e9ec2-6402-4655-b98b-6cb33354fa01)
+
 
 RESULT:
+
+![WhatsApp Image 2026-04-09 at 8 26 10 AM](https://github.com/user-attachments/assets/e260cd4f-36cb-4279-a577-c1049e5deb2d)
+
